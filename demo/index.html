@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>my-login demo</title>
+
+    <script src="../node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+
+    <script type="module">
+      import '@polymer/iron-demo-helpers/demo-pages-shared-styles';
+      import '@polymer/iron-demo-helpers/demo-snippet';
+    </script>
+
+    <script type="module" src="../my-login.js"></script>
+
+    <custom-style>
+      <style is="custom-style" include="demo-pages-shared-styles">
+      </style>
+    </custom-style>
+  </head>
+  <body>
+    <h3>This is a random page where the login web component made width polymer should be displayed</h3>
+    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae blanditiis iure nulla, aperiam maiores tenetur, in consequuntur ratione, natus quisquam laboriosam quidem reiciendis! Ullam pariatur, molestias magnam corporis dolore doloribus.</span>
+    <div class="vertical-section-container centered">
+      <demo-snippet>
+        <template>
+          <my-login></my-login>
+        </template>
+      </demo-snippet>
+    </div>
+    <div>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis architecto obcaecati ea eos tenetur iste earum quo in est, ex soluta commodi illum sint amet nesciunt, dolorem non! Porro, quas.
+    </div>
+  </body>
+</html>
